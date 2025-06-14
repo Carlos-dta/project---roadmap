@@ -1,0 +1,149 @@
+body {
+    font-family: Arial;
+    margin: 10px 50px;
+    padding: 0;
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.detalhe {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient(red, white);
+}
+
+.name {
+    display: flex;
+    justify-content: left;
+    font-size: 1.2rem;
+}
+
+.title {
+    margin: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section {
+    border: 1px solid #000;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 10px 0;
+    list-style: none;
+}
+
+#projects li {
+    padding: 2px;
+    border-bottom: 2px solid #ddd;
+
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#work-experience {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#opensource {
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#education {
+    grid-column: 3;
+}
+
+.review-title {
+    padding: 20px;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+
+.review-1 {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+.review-2 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+.review-3 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+
+}
+
+.footer {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1rem;
+    text-align: center;
+}
